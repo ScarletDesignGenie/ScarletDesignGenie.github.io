@@ -1,0 +1,23 @@
+body {
+	background-image: url ("sdg_logo_perspective.tif");
+}
+ 
+p{
+	font-family: helvetica, sans-serif;
+font-size: 14px;
+}	
+
+ul{
+	font-family: helvetica, sans-serif;
+	font-size: 10px;
+}
+
+h1 {color: #ff0000;
+	font-family: helvetica, sans-serif;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: helvetica, sans-serif;
+font-size: 15px;
+}
