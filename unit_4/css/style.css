@@ -1,0 +1,72 @@
+body {
+	font-size: 20px;
+	color: #637383;
+	font-family: avenir, helvetica, sans-serif;
+}
+
+#opening_paragraph {
+	color: #DC143C;
+	line-height: 1.25em;
+}
+
+.other_paragraphs {
+	margin-left: 4em;
+
+}
+
+h1 {
+	color: #DC143C;
+	font-family: ainslie, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 7em;
+	text-align: center;
+	line-height: 1.5em;
+	}
+
+	hr {
+		width: 60%;
+		size: 1px;
+		color: #DC143C;
+	}	
+
+h3 {
+	color: #99a6b2;
+	font-family: ainslie, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 span{ 
+	font-family: georgia;
+	font-weight: 500;
+}
+
+main {
+	background-image: url("../images/sdg_logo_perspective.tif");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 100px 0.25em;
+	background-size: cover;
+	/*background-size: cover;*/
+}
+ 
+ main p{
+ 	width: 800px;
+ }
+
+p {
+	font-family: helvetica, sans-serif;
+	font-size: 2em;
+	margin-left: 4em;
+	line-height: 1.25em;
+}	
+
+ul {
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+	margin-left: 4em;
+	list-style: none;
+	line-height: 2em;
+	color:  #1A75FF;
+}
