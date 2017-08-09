@@ -9,12 +9,13 @@ header img {
 	float:left;
 	width:10em;
 }
-nav {float:right;}
+header nav {float:right;}
 nav a {
 	color:#404040;
 }
 nav a:hover {
-	color:#ee0000;
+	background-color:#ee0000;
+	color:#fff;
 	text-decoration:none;
 }
 footer {
@@ -31,6 +32,7 @@ h1 {
 	font-weight: bold;
 	font-size: 3em;
 	border-bottom: 3px dotted gray;
+	clear: both;
 }
 h2	{
 	color: #CC0000;
@@ -50,9 +52,7 @@ p span{
 	font-family: georgia;
 	font-weight: 600;
 }	
-ul {
-	list-style: none;
-}
+ul {list-style-type: circle;}
 a {
 	color: #EE0000;
 	text-decoration: none;
@@ -74,25 +74,39 @@ a:hover {
 	max-width: 1200px;
 	margin:auto;
 }
+#portfolio .wrapper {
+    max-width: 80%;
+    float: right;
+}
+#portfolio {
+    padding: 1em;
+}
+.row {margin-top: 4em;}
+.image_left > * {
+	float:left;
+}
+.image_right > * {
+	float:right;
+}
 .column50 {
-	width: 50%;
-	float: right;
+	width: 66.66%;
 } 	
 .column30 {
-	width: 30%;
-	float: right;
-} 
-.image_left .column30 {
-	padding-left: 3em;
-}	
-.image_right .column50 {
-	padding-left: 3em;
+	padding: 1em 0 0;
+	width: 33.33%;
+}
+.image_left img {
+	padding-right:3em;
+}
+.image_right img {
+	padding-left:3em;
 }
 #intro_content {
 	text-align:center;
 }
 #intro_content img {
-	width:100%;
+	width: 80%;
+	float: right;
 }
 #opening_column_1 {
 	background-color: #F00000;
@@ -104,7 +118,7 @@ a:hover {
 #opening_column_3 { 
 	background-color: #A00000;
 }
-.clearfix:after {
+.clearfix:after,.row:after {
 	clear:both;
 	content:"";
 	display:block;
