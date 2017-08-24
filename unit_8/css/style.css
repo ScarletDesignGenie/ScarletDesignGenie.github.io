@@ -1,0 +1,158 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-size:16px;
+	color:#404040;
+	font-family:'Istok Web', sans-serif;
+	line-height:1.5;
+}	
+header nav {
+	float:right;
+	display: inline;
+}
+nav a {
+	font-size: 1.15em;
+	color:#404040;
+	padding: 5em 3em 1em 3em ;
+}
+nav a:hover {
+	background-color:#ee0000;
+	color:#fff;
+	text-decoration:none;
+}
+img {
+	margin: 5em;
+	float: left;	
+	width: 21%;
+}
+footer {
+	background-color: #F5F5F5;
+	padding: 20px;
+}
+footer nav {
+	text-align: center;
+}
+h1 {
+	display: block;
+	color: #d82c2c;
+	font-family: 'Istok Web', sans-serif;
+	font-size:2.5em;
+	border-bottom-color: #fffebb;
+	padding: ai;
+	clear: both;
+}
+h2	{
+	color: #CC0000;
+	font-family:'Istok Web', sans-serif;
+	font-size: 1.75em;
+	letter-spacing: 1px;
+}
+h3	{
+	font-family:'Cardo', serif;
+	color: #909090;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+p span{ 
+	font-family: georgia;
+	font-weight: 600;
+}	
+ul {list-style-type: circle;}
+a {
+	color: #EE0000;
+	text-decoration: none;
+	padding: 20px 0;
+	display: inline-block;
+}
+a:hover {
+	text-decoration:underline;
+}
+.column {
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	width: 31.33%;
+	margin: 1%;
+	padding: 2em;
+	color: #fff;
+}
+.wrapper {
+	max-width: 1200px;
+	margin:auto;
+}
+#portfolio .wrapper {
+    max-width: 80%;
+    float: right;
+}
+#portfolio {
+	text-align: center;
+    padding: 3em 0;
+}
+.row {margin-top: 4em;}
+.image_left > * {
+	float:left;
+}
+.image_right > * {
+	float:right;
+}
+.column50 {
+	width: 66.66%;
+} 	
+.column30 {
+	text-align: left;
+	padding: 1em 0 0;
+	width: 33.33%;
+}
+.image_left img {
+	padding-right:3em;
+}
+.image_right img {
+	padding-left:3em;
+}
+#opening_column_1{ 
+	background-color: #df2020;
+}
+#opening_column_2{ 
+	background-color: #ec1313;
+}
+#opening_column_3 { 
+	background-color: #f90606;
+}	
+#about {
+
+}
+#contact {
+
+}
+
+.clearfix:after,.row:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+@media screen and (max-width:1450px) {
+	#opening_column_1, #opening_column_2, #opening_column_3 { float:none; width: auto; padding: auto;}
+	.image_right img {padding-left:0;}
+	#portfolio .wrapper {max-width: 100%;}
+}
+
+
+@media screen and (max-width:900px) {
+		.column50, .column30 {float:none; width:100%; min-height: auto; padding:0}
+		#logo {width: auto;}
+}
+
+@media screen and (max-width:500px) {
+	nav {
+		float:none;
+		display: block;
+		text-align: center;
+		margin: 0;	
+		text-decoration:none;}
+	img {
+		width: 100%;}
+}
